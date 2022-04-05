@@ -8,6 +8,9 @@ html, body, #app{
     flex-direction: row;
     align-items: center;  
     justify-content: center;
+    flex-wrap: wrap; /* quebrar a linha*/
+    align-content: center; /* alinhando elementos no centro quando quebra linha*/
+    
 }
 
 .box{
@@ -15,5 +18,5 @@ html, body, #app{
     height: 60px;
     background: #f00;
     margin: 5px;
-    flex: 1 0;
+    /* flex: 1 0; esticar quando crescer, não espremer quando diminuir*/
 }
