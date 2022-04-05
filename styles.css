@@ -10,7 +10,7 @@ html, body, #app{
     justify-content: center;
     flex-wrap: wrap; /* quebrar a linha*/
     align-content: center; /* alinhando elementos no centro quando quebra linha*/
-    
+
 }
 
 .box{
@@ -19,4 +19,17 @@ html, body, #app{
     background: #f00;
     margin: 5px;
     /* flex: 1 0; esticar quando crescer, não espremer quando diminuir*/
+}
+.red{
+    order: 1;
+}
+
+.green{
+    background: #0F0;
+    order: 2;
+}
+
+.blue{
+    background: #00F;
+    order: 0;
 }
